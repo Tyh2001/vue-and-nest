@@ -1,0 +1,29 @@
+{
+  "name": "vue-and-nest",
+  "private": true,
+  "workspaces": [
+    "nest",
+    "vue"
+  ],
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "dev:vue": "pnpm run -C vue dev",
+    "dev:nest": "pnpm run -C nest start:dev",
+    "prettier": "prettier --write .",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
