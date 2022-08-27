@@ -25,6 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
+    "@vitest/ui": "^0.22.1",
     "eslint": "^8.23.0",
     "eslint-config-fighting": "^0.0.4",
     "happy-dom": "^6.0.4",
