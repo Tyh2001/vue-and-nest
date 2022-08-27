@@ -1,4 +1,5 @@
 node_modules/*
 vue/dist/*
+nest/dist/*
 **/*.md
 env.d.ts
